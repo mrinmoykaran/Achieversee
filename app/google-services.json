@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "881308174820",
+    "firebase_url": "https://edukit-b7628.firebaseio.com",
+    "project_id": "edukit-b7628",
+    "storage_bucket": "edukit-b7628.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881308174820:android:86b523437d7a10be2a9ff1",
+        "android_client_info": {
+          "package_name": "com.example.edukit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "881308174820-mkiqd61028t0sfdhlpe4if0usb5cqvjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6_RWzxlpvplPt4ABPiOZyoKZ90Qp1nSk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "881308174820-mkiqd61028t0sfdhlpe4if0usb5cqvjd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

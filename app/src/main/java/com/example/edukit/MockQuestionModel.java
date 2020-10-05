@@ -1,0 +1,105 @@
+package com.example.edukit;
+
+public class MockQuestionModel {
+    String q_type;
+    String qestion;
+    String option1;
+    String option2;
+    String option3;
+    String option4;
+    String correct;
+    boolean isAnswerd;
+    int chekedId = -1;
+    long id;
+    String userAnswer;
+
+    public MockQuestionModel(String q_type, String qestion, String option1, String option2, String option3, String option4, String correct) {
+        this.q_type = q_type;
+        this.qestion = qestion;
+        this.option1 = option1;
+        this.option2 = option2;
+        this.option3 = option3;
+        this.option4 = option4;
+        this.correct = correct;
+    }
+
+    public boolean isAnswerd() {
+        return isAnswerd;
+    }
+
+    public void setAnswerd(boolean answerd) {
+        isAnswerd = answerd;
+    }
+
+    public int getChekedId() {
+        return chekedId;
+    }
+
+    public void setChekedId(int chekedId) {
+        this.chekedId = chekedId;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public String getQ_type() {
+        return q_type;
+    }
+
+    public void setQ_type(String q_type) {
+        this.q_type = q_type;
+    }
+
+    public String getQestion() {
+        return qestion;
+    }
+
+    public void setQestion(String qestion) {
+        this.qestion = qestion;
+    }
+
+    public String getOption1() {
+        return option1;
+    }
+
+    public void setOption1(String option1) {
+        this.option1 = option1;
+    }
+
+    public String getOption2() {
+        return option2;
+    }
+
+    public void setOption2(String option2) {
+        this.option2 = option2;
+    }
+
+    public String getOption3() {
+        return option3;
+    }
+
+    public void setOption3(String option3) {
+        this.option3 = option3;
+    }
+
+    public String getOption4() {
+        return option4;
+    }
+
+    public void setOption4(String option4) {
+        this.option4 = option4;
+    }
+
+    public String getCorrect() {
+        return correct;
+    }
+
+    public void setCorrect(String correct) {
+        this.correct = correct;
+    }
+}
